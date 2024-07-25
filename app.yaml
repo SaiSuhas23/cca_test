@@ -1,0 +1,9 @@
+runtime: php74
+
+handlers:
+- url: /.*
+  script: auto
+
+env_variables:
+  APP_ENV: 'prod'
+  # Add other environment variables here
